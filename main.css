@@ -1,0 +1,138 @@
+html, body, h1, h2, h3, h4, ul, ol, li, p, a {
+	padding: 0;
+	border: 0;
+	margin: 0;
+	font: inherit;
+	font-size: 16px;
+	list-style-type: none;
+}
+
+body {
+	background-color: #F8F8F8;
+	font-family: "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 62.5% /* 1em = 10px */;
+}
+h1 {
+	color: #000000;
+	margin: 0 0 15px 0;
+	text-align: center;
+	padding-top: 15px;
+	font-size: 4.8em;
+}
+h2 {
+	padding: 10px 0 15px 0;
+	font-size: 2.4em;
+}
+h3 {
+	text-align: center;
+	font-size: 2em;
+}
+h4 {
+	text-align: center;
+}
+a {
+	font-family: "Helvetica Neue", Helvetica, sans-serif;
+	font-weight: bold;
+	text-decoration: none;
+	color: #000000;
+}
+a:hover {
+	color: #aa0000;
+	text-decoration: underline;
+}
+div.header {
+	background-color: #E0E0E0;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #000000;
+}
+div.footer {
+	background-color: #E0E0E0;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-top: 1px solid #000000;
+}
+.footer p {
+	text-align: center;
+	padding: 5px 0 5px 0;
+}
+.resume {
+	padding: 3px 0 3px 0;
+	margin-left: 15px;
+}
+.nav {
+	padding: 0;
+	text-align: center;
+	margin: 15px 0 15px 0;
+}
+.nav a {
+	margin: 15px auto 15px auto;
+}
+.nav li {
+	display: inline;
+	padding: 0 20px 0 20px;
+	border-right: 2px solid #000000;
+}
+.nav li:last-child {
+	padding-right: 0;
+	border-right: none;
+}
+.external-links {
+	padding: 10px 0 10px 25px;
+}
+.content-section {
+	padding: 15px;
+	width: 60em;
+	margin: 0 auto;
+	border: 1px solid #000000;
+	border-top: none;
+	border-bottom: none;
+}
+div.img {
+    margin: 5px;
+    padding: 5px;
+    height: auto;
+    width: auto;
+    text-align: center;
+}
+.skills li {
+	font-family: "Helvetica Neue", Helvetica, sans-serif;
+	font-weight: bold;
+	background-color: #444444;
+	color: #cccccc;
+	display: inline;
+	padding: 8px 8px 8px 8px;
+	margin-right: 10px;
+}
+.W3C {
+	text-align: center;
+	margin-top: 15px;
+}
+.W3C li {
+	display: inline;
+	padding: 0 10px;
+}
+label {
+  display: block;
+  font-weight: bold;
+  font-size: 1.6em;
+}
+input {
+  display: block;
+  margin-bottom: 15px;
+  font-size: 1.6em;
+}
+input[type="text"] {
+  width: 25em;
+}
+textarea {
+  display: block;
+  margin-bottom: 15px;
+  width: 45em;
+  height: 25em;
+}
+input[type=submit] {
+  width: 10em;
+}
+input[type="checkbox"], label[for=newsletter] {
+  display: inline;
+} 
